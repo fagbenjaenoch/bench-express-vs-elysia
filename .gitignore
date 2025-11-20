@@ -1,0 +1,38 @@
+# Node / Bun
+node_modules/
+bun.lockb
+.pnp.cjs
+.pnp.loader.mjs
+
+# Output
+dist/
+build/
+.out/
+.tmp/
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bun-debug.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Editor stuff
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# OS
+Thumbs.db
