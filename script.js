@@ -9,7 +9,7 @@ const apis = {
 for (const [name, url] of Object.entries(apis)) {
 	console.log(`Running tests for ${url}...`);
 
-	execSync(`BASE_URL=${url} k6 run test.js > result_${name}.txt`, {
+	execSync(`BASE_URL=${url} k6 run test.js > results/result_${name}.txt`, {
 		stdio: "inherit",
 	});
 }
