@@ -14,15 +14,7 @@ For linux, you can install it through snap or apt
 ```sh
 sudo apt install k6
 ```
-3. Run to create a results directory
-	
-> [!WARNING]
-> It's really important you run this before running the script
-
-```sh
-mkdir results
-```
-4. Run the following command to run the benchmark
+3. Run the following command to run the benchmark
 ```sh
 node script.js
 ```
