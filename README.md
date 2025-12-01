@@ -14,7 +14,16 @@ For linux, you can install it through snap or apt
 ```sh
 sudo apt install k6
 ```
-3. Run the following command to run the benchmark
+3. Start all the servers
+```sh
+# in express-app directory
+node index.ts
+# in express-with-bun directory
+bun run index.ts
+# in elysia-app directory
+bun run src/index.ts
+```
+4. Run the following command to run the benchmark
 ```sh
 node script.js
 ```
