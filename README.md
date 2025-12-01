@@ -27,3 +27,4 @@ bun run src/index.ts
 ```sh
 node script.js
 ```
+After the tests have been run you can view the results in the `results` directory
