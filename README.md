@@ -23,11 +23,11 @@ sudo apt install k6
 ## Setup servers
 Start all the servers using the following command (open three different terminal sessions for them)
 ```sh
-# in express-app directory
+# in apps/express-app directory
 node index.ts
-# in express-with-bun directory
+# in apps/bun-express-app directory
 bun run index.ts
-# in elysia-app directory
+# in apps/elysia-app directory
 bun run src/index.ts
 ```
 
