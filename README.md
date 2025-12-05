@@ -1,7 +1,10 @@
 # A performance benchmark of Express, Express with Bun and Elysia with Bun
 
-1. Make sure you have node and bun installed
-2. Make sure you have [k6](https://k6.io/) installed
+## Prerequisites
+Make sure you have [node](https://nodejs.org) and [bun](https://bun.com) installed
+
+Make sure you have [k6](https://k6.io/) installed
+
 For windows, you can install it through choco
 ```ps
 choco install k6
