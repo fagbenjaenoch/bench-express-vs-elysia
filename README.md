@@ -9,15 +9,19 @@ For windows, you can install it through choco
 ```ps
 choco install k6
 ```
+
 For Mac, you can install through brew
 ```sh
 brew install k6
+
 ```
 For linux, you can install it through snap or apt
 ```sh
 sudo apt install k6
 ```
-3. Start all the servers
+
+## Setup servers
+Start all the servers using the following command (open three different terminal sessions for them)
 ```sh
 # in express-app directory
 node index.ts
@@ -26,8 +30,11 @@ bun run index.ts
 # in elysia-app directory
 bun run src/index.ts
 ```
-4. Run the following command to run the benchmark
+
+## Run bench test
+Run the following command to run the benchmark
 ```sh
 node script.js
 ```
+
 After the tests have been run you can view the results in the `results` directory
