@@ -31,7 +31,7 @@ bun run index.ts
 bun run src/index.ts
 ```
 
-## Run bench test
+## Run benchmark
 Run the following command to run the benchmark
 ```sh
 node script.js
