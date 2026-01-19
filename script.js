@@ -8,9 +8,12 @@ const apis = {
 };
 
 // create results directory
-fs.mkdir("./results", (err) => {
-	console.error(`An error occurred while creating the directory: ${err}`);
-});
+let path = "./results";
+if (!fs.existsSync(path)) {
+	fs.mkdir(path, (err) => {
+		console.error(`An error occurred while creating the directory: ${err}`);
+	});
+}
 
 for (const [name, url] of Object.entries(apis)) {
 	console.log(`Running tests for ${url}...`);
